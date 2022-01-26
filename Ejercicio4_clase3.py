@@ -1,0 +1,5 @@
+a = int(input('Ingrese el valor del cateto'))
+b = int(input('Ingrese el valor del segundo cateto'))
+c = (a**2 + b**2)
+c_complete = c**(1/2)
+print(c_complete)
